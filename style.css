@@ -106,3 +106,19 @@ body{
     font-weight: 700;
 
 }
+
+@media (max-width: 991px) {
+    .card{
+        width: auto;
+        max-width: 350px;
+        align-items: flex-start;
+    }
+
+    .card:hover{
+        height: 600px;
+    }
+
+    .card .content{
+        width: 100%;
+    }
+}
